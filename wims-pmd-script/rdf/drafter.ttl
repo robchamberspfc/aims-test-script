@@ -1,0 +1,20 @@
+
+@prefix stardog: <tag:stardog:api:> .
+@prefix : <http://api.stardog.com/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://environment.data.gov.uk/linked-data/graph/data/wims-metadata> rdf:type <http://publishmydata.com/def/drafter/ManagedGraph> ;
+<http://purl.org/dc/terms/issued>	"2021-05-19T17:52:12.504+01:00"^^xsd:dateTime ;
+<http://purl.org/dc/terms/modified>	"2021-05-19T17:52:10.211+01:00"^^xsd:dateTime ; 
+<http://publishmydata.com/def/drafter/isPublic>	"true"^^xsd:boolean.
+
+
+<http://environment.data.gov.uk/linked-data/graph/data/wims> rdf:type <http://publishmydata.com/def/drafter/ManagedGraph> ;
+<http://purl.org/dc/terms/issued>	"2021-05-19T17:52:12.504+01:00"^^xsd:dateTime ;
+<http://purl.org/dc/terms/modified>	"2021-05-19T17:52:10.211+01:00"^^xsd:dateTime ; 
+<http://publishmydata.com/def/drafter/isPublic>	"true"^^xsd:boolean.
+
