@@ -14,9 +14,6 @@ echo '
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 ' >> rdf/drafter.ttl
 
-# for name in capital-projects completed-capital-projects maintenance-tasks maintenance-activities assets
-# for name in assets
-
 #metadata
 #clear contents of metadata file
 > rdf/wims-metadata.ttl
