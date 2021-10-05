@@ -14,8 +14,11 @@ echo '
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 ' >> rdf/drafter.ttl
-
+#all
 for name in regional-flood-committees westminster-constituency ea-areas ons-regions capital-projects-ontology districts lead-risk-management-authorities project-types risk-sources asset-management-ontology asset-types asset-types-ontology legacy-ea-areas spatial-qualties maintenance-ontology activity-status activity-types programmes asset-performance-teams five-year-plan-frequent five-year-plan-intermittent bank flood-map-inclusion management-groups protection-types purposes urgencies conditions crest-level-data-qualities sop-data-qualities plan-status inspection-data-qualities
+
+#assets
+# for name in ea-areas asset-management-ontology asset-types asset-types-ontology legacy-ea-areas asset-performance-teams conditions purposes protection-types crest-level-data-qualities bank flood-map-inclusion capital-projects-ontology
 
 do
 #metadata

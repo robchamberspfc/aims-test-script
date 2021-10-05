@@ -66,7 +66,7 @@ echo '
 #dataset
 
 #send dataset contents to target
-# stardog data add --named-graph $graphTo/wims $target /usr/local/var/fuseki/backups/wims_2021-08-11_16-31-11.nq.gz
+stardog data add --named-graph http://environment.data.gov.uk/linked-data/graph/data/wims defra-dev /usr/local/var/fuseki/backups/wims_2021-08-11_16-31-11.nq.gz
 
 #update drafter records with dataset graph
 echo '
